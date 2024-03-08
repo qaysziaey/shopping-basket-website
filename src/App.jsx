@@ -1,9 +1,13 @@
 import "./App.css";
-
+import { LoginForm } from "./components/LoginForm";
+import { Product } from "./components/Product";
+import ProductDetail from "./components/ProductDetail";
 function App() {
   return (
     <>
-      <h1>Shopping Basket</h1>
+      {/* <LoginForm /> */}
+      {/* <Product /> */}
+      <ProductDetail />
     </>
   );
 }
